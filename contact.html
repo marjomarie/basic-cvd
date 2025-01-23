@@ -8,6 +8,9 @@
     <script src="https://kit.fontawesome.com/a6726e13c6.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="backToTop">
+    <a href="#banner"><i class="fa-solid fa-chevron-up"></i></a>
+</div>
 
 
   <header class="header">
@@ -38,23 +41,79 @@
 
 
 
+<section class="contact" id="banner">
+  <div class="container">
+    <div class="contact__container">
+      <div class="contact__wrapper">
+        <div class="contact__title">
+          <h2>Contact</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime facilis qui atque in.</p>
+          <div class="contact__details">
+            <table>
+              <tr>
+                <td><i class="fa-solid fa-phone"></i></td>
+                <td>+63 987 654 321</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-envelope"></i></td>
+                <td>inquire@creativevisualdesigns.com</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-map-pin"></i></td>
+                <td>Baloc road, Brgy San Ignacio San Pablo City, <br> Laguna, Philippines 4000</td>
+              </tr>
+            </table>
+          </div>
+          <div class="contact__horizontal">
+            <ul>
+              <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-
-<section class="contact">
+      
+      <form action="https://api.web3forms.com/submit" method="post" class="contact__form">
+        <input type="hidden" name="access_key" value="d0acf7c2-a72c-4e87-8a48-7cbd627b0ab5">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" class="contact__inputs" required>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" class="contact__inputs" required>
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Message" class="contact__inputs" required></textarea>
+        <button type="submit" class="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </div>
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <p>We have received your form. Thank you!</p>
+      <button id="closePopup" class="popup-close">Close</button>
+    </div>
+  </div>
+</section>
+<!-- <section class="contact">
   <div class="container">
       <div class="contact__wrapper">
-          <div class="contact__text">
-              <h1>Contact</h1>
+          <div class="contact__text"> -->
+              <!-- <h1>Contact</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatibus, facilis veritatis maxime repellendus saepe?</p>
               <i class="fa-solid fa-user"></i>
               <p>+63 987 654 3210</p>
               <i class="fa-solid fa-calendar-days"></i>
               <p>inquire@creativevisualdesigns.com</p>
               <i class="fa-solid fa-tags"></i>
-              <p>Baloc road, Brgy San Ignacio San Pablo City Laguna Phillipines 400</p>
-              
+              <p>Baloc road, Brgy San Ignacio San Pablo City Laguna Phillipines 400</p> -->
+              <!-- <table>
+                <tr>
+                  <td></td>
+                </tr>
+              </table> -->
               <!-- <a href="" class="btn bg--primary">EXPLORE MORE<a> -->
-                <div class="contact__social">
+                <!-- <div class="contact__social">
                   <ul>
                     <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
                     <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
@@ -62,11 +121,24 @@
                     <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
                     <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
                   </ul>
+
+
+                  <div class="form-container">
+                  <form action="#" method="POST">
+                    <input type="text" name="name" placeholder="NAME" required>
+                    <input type="email" name="email" placeholder="EMAIL" required>
+                    <textarea name="message" rows="5" placeholder="MESSAGE" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                
+                  
+                </div>
+
       </div>
   </div>
 </section>
 
-
+ -->
 
 
 
